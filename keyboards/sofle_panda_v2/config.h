@@ -43,7 +43,7 @@
     #define I2C1_SDA_PIN GP2
     #define I2C1_SCL_PIN GP3
     #define OLED_BRIGHTNESS 12
-    #define OLED_TIMEOUT 1600
+    #define OLED_TIMEOUT 16000
     #define OLED_FONT_H "lib/glcdfont.c"
     // #define WPM_ESTIMATED_WORD_SIZE 5
     #define SPLIT_LAYER_STATE_ENABLE
@@ -65,8 +65,11 @@
     #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
     #define RGB_MATRIX_KEYPRESSES
     #define RGB_DISABLE_WHEN_USB_SUSPENDED
-    #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 128
+    #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 164
     #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
+
+    #define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT_2
+    #define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN_2
 
     #define ENABLE_RGB_MATRIX_ALPHAS_MODS         // Static dual hue, speed is hue for secondary hue
     #define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN    // Static gradient top to bottom, speed controls how much gradient changes

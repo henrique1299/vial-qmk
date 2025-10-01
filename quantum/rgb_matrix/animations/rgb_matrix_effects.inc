@@ -3,6 +3,8 @@
 #include "alpha_mods_anim.h"
 #include "gradient_up_down_anim.h"
 #include "gradient_left_right_anim.h"
+#include "gradient_left_right_2.h"
+#include "gradient_up_down_2.h"
 #include "breathing_anim.h"
 #include "colorband_sat_anim.h"
 #include "colorband_val_anim.h"
